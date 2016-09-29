@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
 var articleOne={
-    title:'Article One',
-    heading:'Article One'
-    date:'Sept 5, 2016'
+    title: 'Article One',
+    heading: 'Article One',
+    date: 'Sept 5, 2016',
     content:` <p>
                     This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.This content for my first article.
                 </p>

@@ -92,10 +92,7 @@ app.get('/:articleName', function(req,res){
    res.send(createTemplate(articles[articleName]));
 });
 
-var counter=0;
-app.get('/counter', function(req,res){
-    counter=counter + 1;
-});
+
 
 
 app.get('/ui/style.css', function (req, res) {

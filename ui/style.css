@@ -27,7 +27,11 @@ body {
     padding-right: 20px;
 }
 
-.main{
-    display: inline;
+.left{
+     float:left;
+}
+
+.right{
+     float:right;
 }
 

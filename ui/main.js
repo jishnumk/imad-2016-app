@@ -1,4 +1,4 @@
-$('#leftbtn').on('click', function(){
+$('button').on('click', function(){
     $('#slider').toggleClass('open');
 
 })

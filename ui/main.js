@@ -23,6 +23,11 @@ $(document).ready(function(){
     
     });
     
+     $('#down').on('click', function(){
+        window.location.hash = "details";
+    
+    });
+    
  
     $("#flash").hover(function(){
         animateDiv();

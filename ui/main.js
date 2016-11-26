@@ -23,7 +23,7 @@ $(document).ready(function(){
     
     });
     
-     $('#down').on('click', function(){
+     $('#downbtn').on('click', function(){
         window.location.hash = "details";
     
     });

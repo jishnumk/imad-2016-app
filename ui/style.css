@@ -155,6 +155,7 @@ body{
 
 #flash{
     background-image: url("/ui/flash.png");
+    background-size:contain;
     background-repeat: no-repeat;
     height:180px;
     width:180px;

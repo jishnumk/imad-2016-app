@@ -94,6 +94,7 @@ body{
     
 }
 
+
 .open{
     left: 0;
     
@@ -139,6 +140,11 @@ body{
   
 }
 
+
+#playarena{
+    width:50%;
+    height:50%;
+}
 
 
 @keyframes MoveUpDown {

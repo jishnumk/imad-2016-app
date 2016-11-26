@@ -28,7 +28,7 @@ body{
 .left{
   height: 50px;
   width: 50px;
-  float: right;
+  top:50%;
   position:absolute;
   background-image: url("/ui/left.png");
   background-size:50px auto;

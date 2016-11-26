@@ -178,7 +178,7 @@ body{
      position: relative;
     height: 100vh;
     width:100%;
-    background-image: url("/ui/bg.jpg");
+    background-image: url("/ui/bg4.jpg");
     background-size:cover;
     background-position: top center; 
     background-attachment: fixed;

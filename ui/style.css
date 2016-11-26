@@ -72,7 +72,7 @@ body{
 }
 
 .slider.left1 {
-    left: 50%;
+    left: 100%;
     top: 0px;
     transition: right 1s;
     height: 100%;

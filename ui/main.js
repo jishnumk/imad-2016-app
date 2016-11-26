@@ -8,4 +8,9 @@ $(document).ready(function(){
         $('#slider1').css("right","0");
     
     });
+    
+    $('#leftbtn1').on('click', function(){
+        $('#slider').css("left","-100%");
+    
+    });
 });

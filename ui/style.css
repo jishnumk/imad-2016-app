@@ -26,6 +26,8 @@ body{
 }
 
 .left{
+  height: 512px;
+  width: 512px;
   position:absolute;
   background-image: url("/ui/left.png");
   background-size:512px auto;

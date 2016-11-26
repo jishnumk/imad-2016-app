@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
     
     $('#leftbtn1').on('click', function(){
-        $('#slider').css("right","-100%");
+        $('#slider1').css("right","-100%");
     
     });
 });

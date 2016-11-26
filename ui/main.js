@@ -1,7 +1,9 @@
 $(document).ready(function(){
+    animateDiv();
+    
     $('#leftbtn').on('click', function(){
         $('#slider').css("left","0");
-        animateDiv();
+        
     
     });
     
@@ -21,9 +23,7 @@ $(document).ready(function(){
     
     });
     
-    $("#flash").hover(function(){
-         animateDiv();
-    });
+ 
     
 
 });

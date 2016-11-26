@@ -19,7 +19,7 @@ body{
     height: 100px;
     width: 30%;
     background-image: url("/ui/logo.png");
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
     position:absolute;

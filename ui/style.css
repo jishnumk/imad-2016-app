@@ -2,7 +2,11 @@ body{
     background-color: honeydew;
 }
    
-
+.bg-image{
+    position: relative;
+    height: 600px;
+    background-image: url("paper.gif");
+}
 
 
 

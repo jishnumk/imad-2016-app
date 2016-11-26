@@ -13,4 +13,9 @@ $(document).ready(function(){
         $('#slider1').css("right","-100%");
     
     });
+    
+     $('#rightbtn1').on('click', function(){
+        $('#slider').css("left","-100%");
+    
+    });
 });

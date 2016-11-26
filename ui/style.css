@@ -77,7 +77,11 @@ body{
 }
 
 #slider1{
-    
+    background-image: url("/ui/bg.jpg");
+    background-size:cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height:100vh;
     width:100%;
     position:absolute;
@@ -107,11 +111,7 @@ body{
 }
 
 .contentvid{
-   background-image: url("/ui/bg.jpg");
-    background-size:cover;
-    background-position: top center; 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+   
 }
 
 #trailer{

@@ -48,13 +48,9 @@ function animateDiv() {
     var oldq = $target.offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
-    $('#flash').animate({
-        top: newq[0],
-        left: newq[1]
-    }, speed, function() {
-        animateDiv();
+     $('#flash').animate({ top: newq[0], left: newq[1] }, function(){
+      animateDiv();        
     });
-
 }
 
 function calcSpeed(prev, next) {

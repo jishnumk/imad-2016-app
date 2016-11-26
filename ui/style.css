@@ -26,6 +26,7 @@ body{
 }
 
 .left{
+  animation: LeftRight 1s linear infinite;
   height: 50px;
   width: 50px;
   top:45%;
@@ -38,6 +39,7 @@ body{
 }
 
 .right{
+  animation: RightLeft 1s linear infinite;
   height: 50px;
   width: 50px;
   top:45%;
@@ -51,7 +53,7 @@ body{
 }
 
 .down{
-  animation: MoveUpDown 2s linear infinite;
+  animation: MoveUpDown 1s linear infinite;
   height: 50px;
   width: 50px;
   bottom: 0;
@@ -73,5 +75,29 @@ body{
   }
   100% {
     bottom: 20px;
+  }
+}
+
+@keyframes LeftRight {
+  0% {
+    left: 20px;
+  }
+  50% {
+    left: 0px;
+  }
+  100% {
+    left: 20px;
+  }
+}
+
+@keyframes RightLeft {
+  0% {
+    right: 20px;
+  }
+  50% {
+    right: 0px;
+  }
+  100% {
+    right: 20px;
   }
 }

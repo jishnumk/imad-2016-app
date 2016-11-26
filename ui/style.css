@@ -15,13 +15,6 @@ body{
     background-repeat: no-repeat;
 }
 
-.logo{
-    height: 100px;
-    width: 100%;
-    background-image: url("/ui/logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    position:absolute;
-}
+
 
 

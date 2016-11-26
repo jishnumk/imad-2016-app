@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    animateDiv();
+    
     
     $('#leftbtn').on('click', function(){
         $('#slider').css("left","0");
@@ -24,7 +24,9 @@ $(document).ready(function(){
     });
     
  
-    
+    $("#flash").hover(function(){
+        animateDiv();
+    });
 
 });
 
@@ -48,8 +50,8 @@ function animateDiv() {
     var oldq = $target.offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
 
-     $('#flash').animate({ top: newq[0], left: newq[1] }, function(){
-      animateDiv();        
+     $('#flash').animate({ top: newq[0], left: newq[1] },50, function(){
+             
     });
 }
 

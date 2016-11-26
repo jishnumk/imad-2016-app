@@ -9,7 +9,7 @@ body{
     height: 100vh;
     width:100%;
     background-image: url("/ui/bg.jpg");
-    background-size:auto 100%;
+    background-size:100% auto;
     background-position: top left; 
     background-attachment: fixed;
     background-repeat: no-repeat;

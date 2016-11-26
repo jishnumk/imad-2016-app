@@ -23,10 +23,7 @@ $(document).ready(function(){
     
     });
     
-     $('#downbtn').on('click', function(){
-        window.location.hash = "details";
     
-    });
     
  
     $("#flash").hover(function(){

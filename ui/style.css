@@ -107,7 +107,11 @@ body{
 }
 
 .contentvid{
-   
+   background-image: url("/ui/bg.jpg");
+    background-size:cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #trailer{
@@ -122,7 +126,7 @@ body{
 }
 
 #video{
-    position: absolute;
+  position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);

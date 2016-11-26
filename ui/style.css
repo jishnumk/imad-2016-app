@@ -142,8 +142,8 @@ body{
 
 
 #playarena{
-    width:50%;
-    height:50%;
+    width:70%;
+    height:70%;
     background-color:white;
     position: absolute;
       left: 50%;
@@ -154,6 +154,12 @@ body{
 
 #flash{
     background-image: url("/ui/flash.png");
+    background-size:cover;
+    background-position: top center; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:200px;
+    width:200px;
 }
 
 

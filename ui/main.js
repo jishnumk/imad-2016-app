@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('button').on('click', function(){
+    $('#leftbtn').on('click', function(){
         $('#slider').css("left","0");
     
     });

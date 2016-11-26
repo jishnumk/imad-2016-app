@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
     
     $('#rightbtn').on('click', function(){
-        $('#slider1').css("right","100%");
+        $('#slider1').css("right","0");
     
     });
 });

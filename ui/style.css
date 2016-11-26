@@ -41,7 +41,7 @@ body{
   height: 50px;
   width: 50px;
   top:45%;
-  right: 100%;
+  left: 100%;
   margin-left: 15px;
   position:absolute;
   background-image: url("/ui/right.png");

@@ -22,9 +22,8 @@ $(document).ready(function(){
     $("#flash").hover(function(){
          animateDiv();
     });
-});
-
-function makeNewPosition(){
+    
+    function makeNewPosition(){
     
     // Get viewport dimensions (remove the dimension of the div)
     var h = $(window).height() - 50;
@@ -44,3 +43,5 @@ function animateDiv(){
     });
     
 }
+});
+

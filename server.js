@@ -52,6 +52,10 @@ app.get('/ui/right.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'right.png'));
 });
 
+app.get('/ui/flash.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'flash.png'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });

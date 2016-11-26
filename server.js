@@ -31,6 +31,18 @@ app.get('/ui/bg.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bg.jpg'));
 });
 
+app.get('/ui/up.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'up.png'));
+});
+
+app.get('/ui/left.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'left.png'));
+});
+
+app.get('/ui/right.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'right.png'));
+});
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });

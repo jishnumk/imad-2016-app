@@ -6,6 +6,7 @@ body{
     position: relative;
     height: 600px;
     background-image: url("bg.jpg");
+    background-size: auto 600px;
 }
 
 

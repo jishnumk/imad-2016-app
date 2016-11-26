@@ -66,6 +66,11 @@ body{
   background-repeat: no-repeat;
 }
 
+.slider {
+    position: absolute;
+    overflow: hidden;
+}
+
 .slider.left {
     left: 50%;
     top: 0px;

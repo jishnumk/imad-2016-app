@@ -183,8 +183,8 @@ body{
 }
 
 .image-cropper {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     position: relative;
     overflow: hidden;
     -webkit-border-radius: 50%;
@@ -198,6 +198,15 @@ img {
     margin: 0 auto;
     height: 100%;
     width: auto;
+}
+
+.data{
+     text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top:50px;
+    color:white;
 }
 
 

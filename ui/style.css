@@ -51,7 +51,7 @@ body{
 }
 
 .down{
-  animation: MoveUpDown 1s linear infinite;
+  animation: MoveUpDown 2s linear infinite;
   height: 50px;
   width: 50px;
   bottom: 0;
@@ -69,9 +69,9 @@ body{
     bottom: 20px;
   }
   50% {
-    bottom: 10px;
+    bottom: 0px;
   }
   100% {
-    bottom: 0;
+    bottom: 20px;
   }
 }

@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('#leftbtn').on('click', function(){
         $('#slider').css("left","0");
+        animateDiv();
     
     });
     
@@ -11,6 +12,7 @@ $(document).ready(function(){
     
     $('#leftbtn1').on('click', function(){
         $('#slider1').css("right","-100%");
+        
     
     });
     

@@ -66,24 +66,25 @@ body{
   background-repeat: no-repeat;
 }
 
-.slider {
-    position: absolute;
-    overflow: hidden;
+#slider{
+    background:blue;
+    height:100px;
+    width:500px;
+    position:relative;
+    left:-520px;
+    
+    
 }
-
-.slider.left1 {
-    left: 100%;
-    top: 0px;
-    transition: right 1s;
-    height: 100%;
-    width: 50%;
-    background: yellow;
+.open{
+    left:0px;
+    
 }
+.transition{
+    
 
-.slider.left1.in {
-    left: 0;
+          transition: left 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
 }
-
 
 
 

@@ -52,19 +52,7 @@ body{
   background-repeat: no-repeat;
 }
 
-.down{
-  animation: MoveUpDown 2s linear infinite;
-  height: 50px;
-  width: 50px;
-  bottom: 0;
-  left: 49%;
-  margin-bottom: 15px;
-  position:absolute;
-  background-image: url("/ui/down.png");
-  background-size:50px auto;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 #slider{
     background-image: url("/ui/bg3.jpg");
@@ -232,14 +220,10 @@ body{
   width: 40px;
   height: 70px;
   margin-left: -20px;
-
   box-shadow: inset 0 0 0 1px #fff;
   border-radius: 25px;
-  
-   
   bottom: 0;
-  left: 49%;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   
 }
 .icon-scroll:before {

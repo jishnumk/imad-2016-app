@@ -159,6 +159,7 @@ body{
     background-repeat: no-repeat;
     height:180px;
     width:180px;
+    position:fixed;
 }
 
 

@@ -106,6 +106,14 @@ body{
 
 }
 
+.trailer{
+    width:100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 2.5em;
+}
+
 
 
 @keyframes MoveUpDown {

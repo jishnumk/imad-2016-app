@@ -26,7 +26,12 @@ body{
 }
 
 .left{
-  position:absolute;  
+  position:absolute;
+  background-image: url("/ui/left.png");
+  background-size:512px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
 

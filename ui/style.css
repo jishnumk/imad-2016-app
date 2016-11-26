@@ -1,12 +1,13 @@
 body{
+    margin:0; padding:0; font-size:100%; line-height:1;   
     background-color: honeydew;
    
 }
    
 .bg-image{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    position: relative;
+    width: 600px;
+    height: 600px;
     background-image: url("/ui/bg.jpg");
     
     background-position: top center; 

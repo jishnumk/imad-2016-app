@@ -8,6 +8,7 @@ body{
     background-image: url("bg.jpg");
     background-size: auto 600px;
     background-position: top center; 
+    background-attachment: fixed;
 }
 
 

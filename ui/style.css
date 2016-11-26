@@ -5,7 +5,7 @@ body{
 .bg-image{
     position: relative;
     height: 600px;
-    background-image: url("bg.jpg");
+    background-image: url("ui/bg.jpg");
     background-size: auto 600px;
     background-position: top center; 
     background-attachment: fixed;

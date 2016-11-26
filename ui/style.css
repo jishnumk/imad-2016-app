@@ -75,6 +75,17 @@ body{
     
     
 }
+
+#slider1{
+    background:blue;
+    height:100vh;
+    width:100%;
+    position:relative;
+    right:0;
+    
+    
+}
+
 .open{
     left: 0;
     

@@ -1,6 +1,4 @@
-$('#leftbtn').click(function(){
-    $('#slider').addClass('in');
-});
+$('#leftbtn').on('click', function(){
+    $('#slider').toggleClass('open');
 
-$(".closebutton").click(function(){$(this).parent().removeClass("in");});
-
+})

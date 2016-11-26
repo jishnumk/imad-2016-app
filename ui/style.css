@@ -17,9 +17,9 @@ body{
 
 .logo{
     height: 100px;
-    width: 30%;
+    width: 100%;
     background-image: url("/ui/logo.png");
-    background-size:contain;
+    background-size:auto 300px;
     background-position: center;
     background-repeat: no-repeat;
     position:absolute;

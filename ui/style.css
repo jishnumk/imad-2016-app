@@ -66,6 +66,22 @@ body{
   background-repeat: no-repeat;
 }
 
+.slider.left {
+    right: 100%;
+    top: 0px;
+    transition: right 1s;
+    height: 100%;
+    width: 50%;
+    background: yellow;
+}
+
+.slider.left.in {
+    right: 50%;
+}
+
+
+
+
 @keyframes MoveUpDown {
   0% {
     bottom: 20px;

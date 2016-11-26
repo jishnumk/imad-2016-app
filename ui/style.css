@@ -77,7 +77,7 @@ body{
 }
 
 #slider1{
-    background-image: url("/ui/bg.jpg");
+    background-image: url("/ui/bg2.jpg");
     background-size:cover;
     background-position: top center; 
     background-attachment: fixed;

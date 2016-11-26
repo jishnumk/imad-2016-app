@@ -20,9 +20,13 @@ body{
     width: 100%;
     background-image: url("/ui/logo.png");
     background-size:300px auto;
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
     position:absolute;
+}
+
+.left{
+  position:absolute;  
 }
 
 

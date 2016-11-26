@@ -43,6 +43,10 @@ app.get('/ui/bg4.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bg4.jpg'));
 });
 
+app.get('/ui/me.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'me.jpg'));
+});
+
 
 app.get('/ui/down.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'down.png'));
@@ -59,6 +63,19 @@ app.get('/ui/right.png', function (req, res) {
 app.get('/ui/flash.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'flash.png'));
 });
+
+app.get('/ui/mobile-phone.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'mobile-phone.png'));
+});
+
+app.get('/ui/gmail.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'gmail.png'));
+});
+
+app.get('/ui/man.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'man.png'));
+});
+
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));

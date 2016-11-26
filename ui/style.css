@@ -26,11 +26,11 @@ body{
 }
 
 .left{
-  height: 100px;
-  width: 100px;
+  height: 30px;
+  width: 30px;
   position:absolute;
   background-image: url("/ui/left.png");
-  background-size:100px auto;
+  background-size:30px auto;
   background-position: center;
   background-repeat: no-repeat;
   

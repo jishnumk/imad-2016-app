@@ -6,7 +6,7 @@ body{
    
 .bg-image{
     position: relative;
-    height: 100%;
+    height: 100vh;
     width:100%;
     background-image: url("/ui/bg.jpg");
     background-position: top left; 

@@ -71,7 +71,7 @@ body{
     overflow: hidden;
 }
 
-.slider.left {
+.slider.left1 {
     left: 50%;
     top: 0px;
     transition: right 1s;
@@ -80,7 +80,7 @@ body{
     background: yellow;
 }
 
-.slider.left.in {
+.slider.left1.in {
     left: 0;
 }
 

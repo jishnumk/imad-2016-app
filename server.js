@@ -47,6 +47,12 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+app.get('/ui/jquery-3.1.1.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jquery-3.1.1.min.js'));
+});
+
+
+
 var names=[];
 app.get('/submit-name', function (req, res) {
     var name=req.query.name;

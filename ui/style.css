@@ -5,8 +5,8 @@ body{
    
 .bg-image{
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 600px;
+    height: 600px;
     background-image: url("/ui/bg.jpg");
     
     background-position: top center; 

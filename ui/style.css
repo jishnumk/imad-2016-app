@@ -152,6 +152,10 @@ body{
       transform: translate(-50%, -50%);
 }
 
+#flash{
+    
+}
+
 
 @keyframes MoveUpDown {
   0% {

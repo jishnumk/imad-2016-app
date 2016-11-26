@@ -43,7 +43,7 @@ function makeNewPosition($container) {
 }
 
 function animateDiv() {
-    var $target = $('.a');
+    var $target = $('#flash');
     var newq = makeNewPosition($target.parent());
     var oldq = $target.offset();
     var speed = calcSpeed([oldq.top, oldq.left], newq);
